@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Little Brushy';
+  font-weight: bold;
+  src: url("../fonts/Little Brushy.otf") format("opentype");
+}
+html, body {
+  height: 100%;
+  margin:0px;
+  background: url('https://images.unsplash.com/photo-1471666875520-c75081f42081?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4d2e1a473c0d21396ea709e72a8d8f0e&dpr=1&auto=format&fit=crop&w=1500&q=80&cs=tinysrgb');
+  background-size: cover;
+  background-position: center center;
+  color: #FFF;
+}
+.main {
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+.wrapper {
+  padding: 0px 5% !important;
+  display: table-cell;
+  text-align: center;
+  height: 100%;
+  font-size: 8em;
+  font-family: 'Little Brushy', sans;
+  vertical-align: middle;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: #33bb77;
+  background: rgba(0, 0, 0, 0);
+}
+
+::selection {
+  color: #33bb77;
+  background: rgba(0, 0, 0, 0);
+}
+
+.wrapper span:nth-child(1n){ color: #08d9d6; }
+.wrapper span:nth-child(2n){ color: #252a34; }
+.wrapper span:nth-child(3n){ color: #ff2e63; }
+.wrapper span:nth-child(4n){ color: #ff9a00; }
+.wrapper span:nth-child(5n){ color: #e84545; }
+.wrapper span:nth-child(6n){ color: #3490de; }
+.wrapper span:nth-child(7n){ color: #f07b3f; }
+.wrapper span:nth-child(8n){ color: #ff5722; }
+.wrapper span:nth-child(9n){ color: #a56cc1; }
+.wrapper span:nth-child(10n){ color: #07689f; }
