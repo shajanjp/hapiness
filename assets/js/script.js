@@ -1,10 +1,6 @@
 var i=0;
 var taskContainer = document.getElementsByClassName('wrapper')[0];
 
-function generateRandomNumber(min, max){
-  return Math.floor(Math.random() * (max-min) + min);
-}
-
 setTask(generateRandomNumber(0, tasksList.length-1))
 
 function spitSpans(task){
