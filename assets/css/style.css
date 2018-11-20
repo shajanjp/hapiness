@@ -27,19 +27,19 @@ html, body {
 }
 
 ::-moz-selection { /* Code for Firefox */
-  color: #33bb77;
+  color: #333333;
   background: rgba(0, 0, 0, 0);
 }
 
 ::selection {
-  color: #33bb77;
+  color: #333333;
   background: rgba(0, 0, 0, 0);
 }
 
 .wrapper span:nth-child(1n){ color: #d62e48; }
 .wrapper span:nth-child(2n){ color: #f4762b; }
 .wrapper span:nth-child(3n){ color: #e34690; }
-.wrapper span:nth-child(4n){ color: #333134; }
+.wrapper span:nth-child(4n){ color: #333333; }
 .wrapper span:nth-child(5n){ color: #443771; }
 .wrapper span:nth-child(6n){ color: #009fe1; }
 .wrapper span:nth-child(7n){ color: #6e353c; }
