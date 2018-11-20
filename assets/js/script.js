@@ -42,3 +42,7 @@ document.addEventListener("keydown", function(event) {
   if(event.which == 32)
     setTask(i++);
 });
+
+setInterval(function(){ 
+  setTask(i++); 
+}, 3000);
