@@ -38,22 +38,18 @@ function spitSpans(task){
     </p>`;
 }
 
-function setTask(taskNumber){
-  taskContainer.innerHTML = spitSpans(tasksList[taskNumber]);
-}
 
 document.getElementsByTagName("body")[0]
 .addEventListener("click", function(){
-  if(i == tasksList.length - 1)
-    i=0;
   setTask(i++);
 });
 
 document.addEventListener("keydown", function(event) {
-  if(event.which == 32)
+  if(event.which == 32){
     setTask(i++);
+  }
 });
 
 setInterval(function(){ 
   setTask(i++); 
-}, 3000);
+}, 5000);
