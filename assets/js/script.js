@@ -16,6 +16,16 @@ function shuffle(ordered){
 
 var tasksList = shuffle(tasksCollection);
 
+function setTask(taskNumber){
+ clearTimeout(animationPipeline);
+  if(i == tasksList.length - 1)
+    i=0;
+  document.getElementsByClassName('animated')[0].className = "fadeOutDown animated"  
+  animationPipeline =  setTimeout(function(){ 
+    taskContainer.innerHTML = spitSpans(tasksList[taskNumber]);
+  }, 1000);
+}
+
 setTask(generateRandomNumber(0, tasksList.length-1))
 
 function spitSpans(task){
