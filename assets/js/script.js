@@ -1,5 +1,6 @@
 var i=0;
 var taskContainer = document.getElementsByClassName('wrapper')[0];
+var animationPipeline;
 
 function generateRandomNumber(min, max){
   return Math.floor(Math.random() * (max-min) + min);
