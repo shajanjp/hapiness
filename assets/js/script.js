@@ -8,10 +8,10 @@ function generateRandomNumber(min, max){
 setTask(generateRandomNumber(0, tasksList.length-1))
 
 function spitSpans(task){
-  return task
+  return `<p class="fadeInDown animated">${task
   .split('')
   .map(stuff => `<span>${stuff}</span>`)
-  .join('');
+  .join('')}</p>`;
 }
 
 function setTask(taskNumber){
